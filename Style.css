@@ -1,0 +1,87 @@
+
+body { 
+
+    background-color:snow;
+    
+
+}
+
+
+#weatherTitle{ 
+
+   
+    
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: larger;
+    position: relative; 
+    margin: auto; 
+    margin-bottom: 40px; 
+    left: 36%; 
+ 
+   
+
+} 
+
+.Text { 
+
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: large; 
+    font-weight: bold; 
+    margin: auto;  
+    position: absolute;
+
+}
+
+
+
+
+#underText{ 
+
+    left: 37%; 
+    border: solid #000;   
+    padding: 30px; 
+    background-color:lightcyan;
+} 
+
+
+
+#cityHolder { 
+
+    position: absolute; 
+    margin: auto; 
+    left: 35%;
+    bottom: 44%; 
+    padding: 50px; 
+    border: solid #000; 
+   display: flex; 
+   flex-direction: column; 
+   text-align: center; 
+   background-color: blanchedalmond;
+    
+    
+}
+
+#cityEnterText { 
+
+    font-family: 'Courier New', Courier, monospace; 
+    font-size:x-large;
+    font-weight: bold; 
+    margin-bottom: 20px;
+    
+ 
+
+
+} 
+
+input[type=text] {
+
+  padding: 10px;
+  margin: 10px;
+    
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06); 
+    border-radius: 10px; 
+    
+
+
+
+}
