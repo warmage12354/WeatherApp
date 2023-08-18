@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body> 
-    
+    <script src="App.js"></script>
     <link rel="stylesheet" href="Style.css">
     <title> My Weather App  </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -22,6 +22,10 @@
     <label id="cityEnterText"></label>
     <input id = "textbox" type="text" placeholder="City name" >
 
+    <!-- This is where the information from the api will be stored -->
+    <div id = "cityName"> </div>  
+    <div id = "cityCondition"></div>
+    <div id = "cityTemp"></div>
 
 
     </form>
