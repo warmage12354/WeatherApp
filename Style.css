@@ -6,6 +6,16 @@ body {
 
 }
 
+.WebContainer { 
+
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+
+
+}
+
+
 
 #weatherTitle{ 
 
@@ -15,7 +25,6 @@ body {
     font-size: larger;
     position: relative; 
     margin: auto; 
-    margin-bottom: 40px; 
     left: 36%; 
  
    
@@ -46,7 +55,7 @@ body {
 
 
 #cityHolder { 
-
+    
     position: absolute; 
     margin: auto; 
     left: 35%;
